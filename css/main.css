@@ -10,10 +10,26 @@ html {
   box-sizing: inherit;
 }
 
-article, header {
+body {
+
+}
+
+article h1 {
+
+}
+
+article header {
   border-bottom: 2px solid #222;
   margin: 0rem 0rem 1.3rem 0rem;
   padding: 0 1rem;
+}
+
+article header p {
+
+}
+
+article ol {
+
 }
 
 h1 {
@@ -26,9 +42,10 @@ h1 + p {
 }
 
 blockquote {
+  font-size: 1.5rem;
   color: #555;
 }
 
-span {
+.quote {
   color: #999;
 }
